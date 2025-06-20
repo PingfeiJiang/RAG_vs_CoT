@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spec: NoRDT</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 20px; background-color: #f8f9fa; }
+        .container { max-width: 800px; margin: 20px auto; padding: 30px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+        h1 { color: #343a40; border-bottom: 2px solid #dee2e6; padding-bottom: 10px; margin-bottom: 20px; font-size: 24px; }
+        .highlights-box { background-color: #eef7ff; border-left: 5px solid #007bff; padding: 15px 20px; margin-bottom: 30px; border-radius: 5px; }
+        .highlights-box h3 { margin-top: 0; color: #0056b3; font-size: 16px; }
+        .highlights-box ul { padding-left: 20px; margin-bottom: 0; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+        th { background-color: #f1f3f5; font-weight: 600; font-size: 14px; }
+        td ul { margin: 0; padding-left: 20px; }
+        td li { margin-bottom: 5px; color: #495057; }
+        strong { color: #212529; }
+    </style>
+</head>
+<body>
+    <div class="container" id="capture">
+        <h1>Design Concept F</h1>
+        <div class="highlights-box">
+            <h3>Key Highlights</h3>
+            <ul>
+                <li>Hair Dryer features Automatic Shut-Off. </li>
+                <li>Automatic Shut-Off activates_upon Overheating. </li>
+                <li>Handle is_designed_with Ergonomic Grip. </li>
+                <li>Handle is_coated_with Soft-Touch Material. </li>
+            </ul>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 30%;" class="width-change">Requirement</th>
+                    <th style="width: 70%;" class="width-change">Features & Specifications</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Enhance user comfort and ergonomics</strong></td>
+                    <td>
+                        <ul>
+                            <li>Handle is_designed_with Ergonomic Grip. </li>
+                            <li>Handle is_coated_with Soft-Touch Material. </li>
+                            <li>Weight Distribution is Balanced. </li>
+                            <li>Control Buttons are Intuitively Placed. </li>
+                            <li>Control Buttons are Easy to Reach. </li>
+                            <li>Noise Level is Minimized. </li>
+                            <li>Motor incorporates Noise Reduction Technology. </li>
+                            <li>Housing is Acoustically Dampened. </li>
+                            <li>Cord is Swivel Mounted. </li>
+                            <li>Swivel Mount prevents Tangling. </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Ensure safety and prevent accidents</strong></td>
+                    <td>
+                        <ul>
+                            <li>Hair Dryer features Automatic Shut-Off. </li>
+                            <li>Automatic Shut-Off activates_upon Overheating. </li>
+                            <li>Heating Element is Thermally Protected. </li>
+                            <li>Housing is_made_of Heat-Resistant Material. </li>
+                            <li>Air Intake is Filtered. </li>
+                            <li>Filter prevents Hair from Entering. </li>
+                            <li>Cord is Heavy-Duty. </li>
+                            <li>Cord is Double Insulated. </li>
+                            <li>Plug is ALCI Safety Plug. </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Minimize drying time and improve efficiency</strong></td>
+                    <td>
+                        <ul>
+                            <li>Hair Dryer features High-Speed Motor. </li>
+                            <li>High-Speed Motor generates Powerful Airflow. </li>
+                            <li>Airflow Nozzle is_designed_for Concentrated Airflow. </li>
+                            <li>Airflow Nozzle can_be Rotated. </li>
+                            <li>Rotation allows_for Targeted Drying. </li>
+                            <li>Ionic Generator is_integrated_into Airflow System. </li>
+                            <li>Ionic Generator produces Negative Ions. </li>
+                            <li>Negative Ions break_down Water Molecules. </li>
+                            <li>Water Molecules evaporate Faster. </li>
+                            <li>Motor is Energy Efficient. </li>
+                            <li>Heating Element is Power Optimized. </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Promote sustainability and environmental responsibility</strong></td>
+                    <td>
+                        <ul>
+                            <li>Hair Dryer is_made_with Recycled Materials. </li>
+                            <li>Packaging is Eco-Friendly. </li>
+                            <li>Packaging is Recyclable. </li>
+                            <li>Motor is Energy Efficient. </li>
+                            <li>Heating Element is Power Optimized. </li>
+                            <li>Product is_designed_for Long Lifespan. </li>
+                            <li>Product is Repairable. </li>
+                            <li>Components are Easily Replaceable. </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Provide versatile styling options</strong></td>
+                    <td>
+                        <ul>
+                            <li>Hair Dryer includes Multiple Attachments. </li>
+                            <li>Attachments include Diffuser. </li>
+                            <li>Attachments include Concentrator Nozzle. </li>
+                            <li>Attachments include Styling Comb. </li>
+                            <li>Diffuser is_used_for Defining Curls. </li>
+                            <li>Concentrator Nozzle is_used_for Straightening. </li>
+                            <li>Styling Comb is_used_for Adding Volume. </li>
+                            <li>Hair Dryer offers Multiple Speed Settings. </li>
+                            <li>Hair Dryer offers Multiple Heat Settings. </li>
+                            <li>Hair Dryer includes Cool Shot Button. </li>
+                            <li>Cool Shot Button sets Hairstyle. </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Reduce hair damage from excessive heat</strong></td>
+                    <td>
+                        <ul>
+                            <li>Hair Dryer incorporates Intelligent Heat Control. </li>
+                            <li>Intelligent Heat Control utilizes Temperature Sensors. </li>
+                            <li>Temperature Sensors monitor Air Temperature. </li>
+                            <li>Microprocessor adjusts Heating Element Power. </li>
+                            <li>Heating Element Power is_adjusted_to Maintain Safe Temperature. </li>
+                            <li>Airflow is_optimized_for Even Heat Distribution. </li>
+                            <li>Ceramic Coating is_applied_to Heating Element. </li>
+                            <li>Ceramic Coating generates Infrared Heat. </li>
+                            <li>Infrared Heat penetrates Hair Shaft. </li>
+                            <li>Penetration reduces Surface Heat Damage. </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
