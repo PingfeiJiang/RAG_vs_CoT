@@ -1,5 +1,5 @@
 You are an experienced product designer.
-Generate a design concept for this product: {design}.
+Generate a design concept for this product: Hair Dryer.
 From some initial research, the following design insights were gathered and may be useful: 
 [
 {
