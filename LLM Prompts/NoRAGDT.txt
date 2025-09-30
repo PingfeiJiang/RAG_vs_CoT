@@ -1,0 +1,45 @@
+You are an experienced product designer applying the Stanford Design Thinking process to develop a design concept for this product: hair Dryer.
+**Think step-by-step through the following phases to develop your concept. 
+After your thinking process, produce the final design concept in the specified JSON format.**
+**Phase 1: Empathise (Understand the User)**
+- Who are the primary users of this product, and what are their key pain points?
+- Do some background research if necessary to collect users' needs.
+- What aesthetic, emotional, technical, and social needs should this product address?
+
+**Phase 2: Define (Frame the Problem and Identify Key Requirements)**
+- Based on your Phase 1 findings, what are the problems this {design} should solve?
+- To solve the problems, what are the design requirements the product needs to fulfil?
+- What other design requirements does the product need to fulfil to make it more practical? 
+
+**Phase 3: Ideate (Generate Ideas & Features)**
+- For each requirement identified in Phase 2, brainstorm design features or solutions.
+- Consider innovative technologies or approaches, e.g. inspiration from other industries or domains.
+- Think about how these features will work and benefit the user.
+
+**Phase 4: Prototype (Concept development)**
+- Synthesise the ideas generated in Phase 3, and propose a comprehensive design concept. 
+- Consider practicalities, e.g. materials, cost, and manufacturing.
+- Consider the characteristics of the component used. 
+**Final Output Format (Strict JSON):**
+Your entire final response, after the thinking process, MUST be a single JSON object.
+Each item in the list should be an object representing one of the key design requirements you defined.
+Each object must have two keys:
+1.  "Req": A string describing the key design requirement (from your 'Define' phase).
+2.  "Design": A list of semantic triples [Subject, Predicate, Object] detailing the features and functionalities ideated for that requirement.
+**Example JSON Structure:**
+[
+  {{
+    "Req": "Ensure durability and reliability",
+    "Design": [
+      {[ "Case", "is_made_of", "Stainless steel" ]},
+    ]
+  }},
+  {{
+    "Req": "Compact and integrated design for easy storage",
+    "Design": [
+      {[ "Handle", "features", "Slim profile" ]}
+      {[ "Product", "can_be_integrated_into", "Modular furniture units" ]},
+    ]
+  }}
+  ...
+]
