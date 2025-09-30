@@ -1,0 +1,90 @@
+You are an experienced product designer applying the Stanford Design Thinking process to develop a design concept for this product: Hair Dryer.
+From some initial research, the following design insights were gathered and may be useful: 
+[
+{
+"Requirement": "adaptability to different hair dryers",
+"Design_features": [
+"a nozzle attachment is designed to seat securely on the hair dryer opening",
+"actuator driver circuit driven by user-selected oscillation mode",
+"computer-aided control system for accurate positioning",
+"heating element to vaporize the solution",
+"securing portion: ensures the apparatus is firmly attached to the door, preventing it from falling or moving during use"
+]
+},
+{
+"Requirement": "adjustable airflow direction",
+"Design_features": [
+"a heat conductive element is positioned within the nozzle attachment near the slotted opening",
+"channel wall intermediate the inlet end and the closed end of the discharge housing"
+]
+},
+{
+"Requirement": "hands-free operation",
+"Design_features": [
+"actuator driver circuit for automated nozzle control",
+"base for stable positioning",
+"power outlets",
+"user interface for selecting oscillation modes",
+"wireless internet connectivity"
+]
+},
+{
+"Requirement": "integrated control (potentially with other styling tools)",
+"Design_features": [
+"communication between the user interface and the actuator driver circuit",
+"controller electrically connected to the fan, heater, and temperature sensor",
+"controller receives control signals from the temperature sensor",
+"user interface (optionally pertaining to a hair-styling tool)"
+]
+},
+{
+"Requirement": "reduced weight for user comfort",
+"Design_features": [
+"external power supply, removing the weight of the power components from the handheld housing"
+]
+}
+].
+**Think step-by-step through the following phases to develop your concept. 
+After your thinking process, produce the final design concept in the specified JSON format.**
+**Phase 1: User needs and requirements definition**
+- What are the key user needs for this product?
+- Do some background research if necessary to collect users' needs.
+- How can you translate these user needs into measurable system requirements?
+
+**Phase 2: System architecture and design**
+- Given the system requirements identified in Phase 1, what could be the main {design} systems?
+- How should the systems be decomposed into subsystems?
+- What are the correlations and interactions between systems and subsystems?
+
+**Phase 3: Detailed design and development**
+- How should each subsystem identified in Phase 2 be designed to meet its requirements?
+- What modules in each subsystem should be considered?
+- What are the correlations and interactions between modules?
+
+**Phase 4: Integration**
+- How to integrate the design from module-level all the way to system-level?
+- How to make the holistic design concept work well?
+**Final Output Format (Strict JSON):**
+Your entire final response, after the thinking process, MUST be a single JSON object.
+Each item in the list should be an object representing one of the key design requirements you defined.
+Each object must have two keys:
+1.  "Req": A string describing the key design requirement (from your 'Define' phase).
+2.  "Design": A list of semantic triples [Subject, Predicate, Object] detailing the features and functionalities ideated for that requirement.
+**Example JSON Structure:**
+[
+  {{
+    "Req": "Ensure durability and reliability",
+    "Design": [
+      {[ "Case", "is_made_of", "Stainless steel" ]},
+    ]
+  }},
+  {{
+    "Req": "Compact and integrated design for easy storage",
+    "Design": [
+      {[ "Handle", "features", "Slim profile" ]}
+      {[ "Product", "can_be_integrated_into", "Modular furniture units" ]},
+    ]
+  }}
+  ...
+]
+
