@@ -1,0 +1,24 @@
+You are an experienced product designer.
+Generate a design concept for this product: {design}.
+Your response must be a single JSON list.
+Each item in the list should be an object representing a distinct design requirement or design aspect.
+Each object must have two keys:
+1.  "Req": A string describing the design requirement or design aspect.
+2.  "Design": A list of semantic triples describing how that aspect works. Each triple must be a list of three strings: [Subject, Predicate, Object].
+**Example JSON Structure:**
+[
+  {{
+    "Req": "Ensure durability and reliability",
+    "Design": [
+      {[ "Case", "is_made_of", "Stainless steel" ]},
+    ]
+  }},
+  {{
+    "Req": "Compact and integrated design for easy storage",
+    "Design": [
+      {[ "Handle", "features", "Slim profile" ]}
+      {[ "Product", "can_be_integrated_into", "Modular furniture units" ]},
+    ]
+  }}
+  ...
+]
